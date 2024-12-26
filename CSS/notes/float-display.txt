@@ -1,0 +1,80 @@
+1. float in CSS
+The float property is used to position elements to the left or right of their container and allow other elements (like text) to flow around them.
+
+Values of float:
+none: Default value. The element does not float.
+left: The element floats to the left of its container.
+right: The element floats to the right of its container.
+inherit: The element inherits the float value of its parent.
+Example:
+<div style="float: left; width: 100px; height: 100px; background-color: lightblue;">
+    I am floated left.
+</div>
+<p>This text flows around the floated box.</p>
+Common Issues with float:
+Floated elements are removed from the normal document flow, which can cause parent containers to collapse if they don’t account for the height of the floated elements.
+Clearing Floats:
+To fix layout issues caused by float, you can use the clear property:
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+Apply .clearfix to the container of floated elements.
+
+2. display Property in CSS
+The display property determines how an element is displayed in the document.
+
+Common Values of display:
+block
+inline
+inline-block
+display: block
+Block-level elements occupy the full width of their parent container and start on a new line.
+Examples of block-level elements: <div>, <p>, <h1>.
+Key Characteristics:
+Takes up the full width of its parent container.
+Starts on a new line (other elements appear below it).
+Example:
+<div style="display: block; background-color: lightcoral;">
+    I am a block element.
+</div>
+<div style="display: block; background-color: lightblue;">
+    I am another block element.
+</div>
+display: inline
+Inline elements do not start on a new line. They only take up as much width as necessary.
+Examples of inline elements: <span>, <a>, <strong>.
+Key Characteristics:
+Only takes as much width as the content inside it.
+Does not accept width and height properties (these are ignored).
+Example:
+<span style="display: inline; background-color: lightgreen;">I am inline</span>
+<span style="display: inline; background-color: lightpink;">I am next to you</span>
+display: inline-block
+Combines characteristics of both block and inline:
+It behaves like inline (does not start a new line).
+It behaves like block (you can set width and height).
+Key Characteristics:
+Does not start a new line.
+Accepts width and height.
+Example:
+<span style="display: inline-block; width: 100px; height: 50px; background-color: lightblue;">
+    I am inline-block.
+</span>
+<span style="display: inline-block; width: 100px; height: 50px; background-color: lightcoral;">
+    I am next to you.
+</span>
+When to Use These Properties
+block: Use for large structural elements like sections, articles, or containers.
+inline: Use for text styling, links, or elements that flow naturally with text.
+inline-block: Use when you want elements side-by-side but still able to set dimensions.
+Combining float and display
+Floats and display values are often used together for layouts. For example:
+
+<div style="float: left; display: block; width: 50%; background-color: lightblue;">
+    I am floated and take 50% of the width.
+</div>
+<div style="float: right; display: block; width: 50%; background-color: lightcoral;">
+    I am floated to the right.
+</div>
