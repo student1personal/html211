@@ -1,0 +1,32 @@
+Pseudo Selectors are used to select an element based on state or position of the element
+There are two types of pseudo selectors i.e.,
+ i. pseudo classes
+ ii. pseudo elements
+Pseudo elements:
+   Pseudo elements uses double colon for its presence
+   1.::first-line: first line is used to select the first line of the element
+   2.::first-letter: first letter is used to select the first letter of the element
+   3.::after: it is used to keep certain content after the element
+   4.::before: it is used to place certain content before the element
+   5.::placeholder: it is used to select the placeholder of input elements
+
+  pseudo classes:
+  these selectors uses single colon
+  i. :hover : it is used to select an element whenever we keep mouse over the element
+  ii. :required : it is used to select an element when it is required
+  iii. :optional : it is used to select an input element when it is not required
+  iv. :active : it is used to select an anchor tag when it is active
+  v. :link : it is used to select a link in original state
+  vi :visited : it is used to select a link if it is already visited
+  vii. :disabled : it is used to select an input element when it is disabled
+  viii. :enabled :it is used to select an input element when it is not disabled
+  ix. :read-only : it is used to select an input element when it is readonly
+  x. :read-write : it is used to select an input element when it is not read-write
+  xi. :first-child: it is used to select an element if it is first
+  xii. :last-child; it is used to select an element if it is the last
+  xiii. :nth-child(position): it is used to select an element based on its position number 
+  xiv. :nth-last-child(position): it is used to select an element based on its position number from last
+  xv. :nth-of-type(position): it is used to select an element based on its position number and type of the element
+  xvi. :nth-of-last-type(position): it is used to select an element based on its position number and type of the element from the last
+  xvii. :not : it is used to select the element except certain element
+  
