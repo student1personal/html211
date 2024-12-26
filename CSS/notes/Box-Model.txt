@@ -1,0 +1,18 @@
+Box Model: 
+      In CSS, Every element is treated as a Box. A Box Typically Contains 
+     I. Border: border is used to outline any element. we can define border as      border: border-width border-style border-color;
+we can  also specify different borders such as border-left, border-right, border-bottom, border-top;
+      To achieve corner radius, we use border-radius:size;
+we can also assign border-top-left-radius,border-top-right-radius,
+border-bottom-left-radius,border-bottom-right-radius
+     II. Margin: Margin is the space outside the border.
+   we can use margin-top,margin-bottom,margin-left,margin-right,
+   margin: 10px will assign 10px to all sides
+   margin: 10px 20px will assign 10px to top and bottom and 20px to left and right
+   margin: 10px 20px 30px 40px will assign respective sides starting from top to left in clock wise direction
+     III. padding: we can also assign padding similar to margin. padding is the gap between border and content(internal space)
+
+
+By default , every box sizes as content-box. If padding is given, it might increase height and width of box.
+if you do not want to change height / width by padding, you can use
+box-sizing: border-box
