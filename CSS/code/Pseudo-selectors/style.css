@@ -1,0 +1,83 @@
+.para{
+    
+}
+#myDiv{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#myDiv:hover{
+    background-color: green;
+}
+/* input:optional{
+    border: 1px solid red;
+} */
+ /* input:read-write
+{
+    background-color: red;
+} */
+/* input:enabled{
+    background-color: red;
+} */
+ a:link{
+    color: red;
+ }
+ a:active{
+    color: yellow;
+ }
+ a:visited{
+    color: green;
+ }
+ .child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+ }
+ .parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ /* .child:nth-child(odd){
+    background-color:blue
+ }
+ .child:nth-child(even){
+    border: 1px solid blue;
+    background-color: white;
+ }
+  .child:nth-child(even):hover{
+    background-color: blue;
+  }
+  p.child:nth-of-type(1){
+    background-color: green;
+  } */
+
+.child:not(.child:last-child){
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.s{
+    color: red;
+}
+.para::first-letter{
+    color: red;
+    font-size: 48px;
+}
+.para::first-line{
+    color: green;
+}
+.para::before{
+   content:"\0022";
+   font-size:64px;
+   color: red;
+}
+input::placeholder{
+    color: red;
+}
