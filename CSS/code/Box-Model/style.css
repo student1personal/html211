@@ -1,0 +1,30 @@
+/* .heading1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 20px 30px 20px 5px;
+    box-sizing: border-box;
+   padding:30px;
+} */
+
+
+
+
+body{
+    background-color: mistyrose;
+    width: 100vw;
+}
+.box{
+    box-sizing: border-box;
+   width: 40vw;
+   background-color: white;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 30px;
+   padding: 50px;
+}
+.box>img{
+  height: 200px;
+}
