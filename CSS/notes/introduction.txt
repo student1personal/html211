@@ -1,0 +1,80 @@
+CSS(cascading style sheets) is used to design/style the web page. They were introduced in 1994.
+To design a website well,
+we need to concentrate three things:
+   -- eye-friendly colours
+   -- fonts
+   -- layout
+
+1. How to Link CSS to HTML?
+We can link CSS to HTML in three ways
+  i. inline CSS:
+     we can apply styles in html elements opening tag , style as a attribute.
+     <h1 style="background-color: aqua;color: red;">
+        Happy Children's Day
+    </h1>
+    /* create paragraph that says happy Children's day 
+    and apply inline css for background-color and color properties */
+  ii. Internal CSS:
+    we can apply styles to any element/elements using 
+    style as a element
+    syntax: 
+    selector
+    {
+       //properties
+    }
+eg:<style>
+        h1
+        {
+          background-color: blue;
+          color: white;
+        }
+    </style>
+/* create 4 paragraphs with some dummy data and apply same background-color and color properties to all paragraphs using internal CSS */
+
+iii. External CSS:
+we can create separate CSS file and attach to HTML using link tag.
+<link rel="stylesheet" href="./style.css">
+
+Inline >!important> Internal = External(mostly External dominates Internal)
+!important will be added to properties values such that its preference will be higher level
+eg: h1{
+            background-color: green !important;
+        }
+      
+
+Basic Selectors:
+Selectors are used to identify an element of HTML in CSS
+You can identify an element basically in three ways
+  i. tag: we can define properties using tags so that
+  all elements with that tag will be selected
+  ii. classname: if we need to select few elements, we can assign same class name to all and identify the class name
+  in CSS using dot notation
+  eg: <h1 class="myClass">Hello World</h1>
+  <style>
+    .myClass{
+      color:red;
+    }
+    </style>
+   iii. idname: if we need to select only one element, we can use id . we can identify id in css by using # notation.
+    eg: <h1 id="something">Hello World</h1>
+  <style>
+    #something{
+      color:red;
+    }
+    </style>
+   Note: An element might contain multiple class names and multiple element might contain same class name. id's are always unique
+
+   id>class>tag
+
+Combinators:
+direct-child(>): we can identify an element direct child
+ using >
+descendant(' ') : we can identify an element using space combinator for descendants
+Eg: div>h1 means h1 which is direct child of div
+div h1 means h1 which is descendant of div
+Adjacent sibling selector(+):
+we can identify an element which comes right after another 
+element using '+'
+General Sibling Selector(~):
+we can identify an element which comes after an element 
+using ~
