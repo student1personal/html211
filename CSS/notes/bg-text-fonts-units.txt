@@ -1,0 +1,53 @@
+Backgrounds:
+       we can define background as a color or as an image.
+background-color: This property is used to set background color and In CSS, colour can be denoted as 
+    I. By name: code editor provides basic color name suggestion
+  II. By Hexcode: Every colour will have a hexadecimal code starts with #
+       like #c93a09
+  III. RGB: we can define any color as a mixture of red,green,blue where each color have range from 0 to 255
+  IV. HSL : we can define any color as Hue,Saturation and lightness.
+   Hue is a degree of color from 0 to 359, saturation and lightness are 0 to 100%
+  we can also define different shades using alpha ranges from 0.0 to 1.0
+
+  gradients:
+      we can mix colours by gradients and we can define gradients using background property
+  1. linear-gradient: it mixes colors in a line
+  2. radial-gradient: it mixes colors in circular way
+  background: linear-gradient/radial-gradient
+
+background-image:
+we can assign images to background by using background-image with url
+   background-image : url('path')
+   background-position: top/bottom/center/left/right;
+   background-size:auto/cover/contain
+   background-repeat: repeat/round/space/repeat-x/repeat-y/no-repeat
+
+Fonts: 
+A Good Design Contains a better font and there are 5 different font families are existed
+  I. serif  : serif fonts will have a stroke at the end
+                 Eg: Times new Roman
+II. sans-serif : sans-serif literally means no-serif. they will not have any stroke
+                 Eg: Arial
+III. monospace: monospace fonts will have same height and gap
+                Eg: roboto
+IV. cursive:   cursive fonts are stylish,sleeps,connected
+ V. modern/fantasy: all modern fonts which  doesn't belong above are modern/fantasy 
+you can include fonts from google fonts,1001fonts,dafont
+
+Import google fonts using @import url('') in css
+font-size: we can use it to assign size
+font-weight: used to assign thickeness(bold/boder/100-1000)
+font-style: used to assign style (normal/italic/oblique)
+font-family: used to mention the font family
+text-align: center/left/right/justify
+text-decoration-line: underline/overline/line-through/none
+text-decoration:dotted/solid/dashed/wavy/double
+text-shadow:size1 size2 color
+
+units: units are used to assign certain sizes
+px- pixels(smallest unit)
+em- enumerated value(1 em = 1 time of parent's font size)
+rem - root enumerated value( 1 rem = 16px)
+vw- viewport width(10vw- 10% of visible width)
+vh- viewport Height(10vw- 10% of visible Height)
+% - used to define different 
