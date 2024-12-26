@@ -1,0 +1,19 @@
+FlexBox: FlexBox is used to display or arrange the elements/items in single direction i.e., row or column.
+We define the flex property to the parent/container such that all the child items will be arrange in row or column
+parent Properties:
+-----------------------
+   display: flex ( defines the container as flexbox)
+   flex-direction: row/column/row-reverse/column-reverse(by default row will be selected. it is also called "main axis". used to arrange elements in particular direction)
+  justify-content: left/right/start/end/center/space-between/space-around/space-evenly( used to move items around main-axis)
+ align-items: start/end/center/left/right(used to move items around cross axis -- opposite of main axis)
+  flex-wrap: wrap/nowrap/wrap-reverse(used to wrap up item in multi-row/multi-column)
+ align-content: left/right/start/end/center/space-between/space-around/space-evenly(used to arrange the multi row or mutli column)
+ gap: used to assign gap between the elements
+
+child-properties:
+ justify-self : used to move an element along main axis
+ align-self: used to move an element along cross axis
+ order: used to order elements to arrange(default value is zero)
+ flex-grow: used to make an element grow more than other
+ flex-shrink: used to make an element shrink more than other
+ flex-basis: used to keep same width for an element
