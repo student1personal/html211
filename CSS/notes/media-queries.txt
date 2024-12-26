@@ -1,0 +1,10 @@
+media queries are used to make web page responsive. A responsive web page will look good in all devices.
+We can use media queries using @media
+we can use max-width and min-width
+Always it is better to mention media queries at the end and in an order
+
+To make easily website responsive, always try to use
+flex
+grid
+avoid px, use em,rem,vh,vw,%
+adjust padding and margins
