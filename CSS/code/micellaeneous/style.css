@@ -1,0 +1,11 @@
+img{
+    filter:invert();
+   clip-path:polygon(50% 0%, 40% 48%, 100% 60%, 60% 79%, 25% 100%, 0% 60%, 10% 20%);
+    height: 200px;
+    transition: all 1s ease;
+}
+img:hover{
+    filter: none;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    transform: translateY(-20px);
+}
