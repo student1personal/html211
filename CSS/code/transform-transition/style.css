@@ -1,0 +1,44 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    box-sizing: border-box;
+    font-size: 48px;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+   
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 0.5s linear;
+    margin: 10px;
+}
+.parent{
+    transition: all 2s ease;
+}
+.parent:hover{
+    transform: translateX(200px);
+}
+.box:hover{
+    /* background-color: green;
+    height: 300px; */
+    /* transform: rotate(360deg); */
+    /* transform: translateX(400px); */
+}
+.img{
+}
+.img:hover{
+     /* transform: rotate(180deg)  */
+     transform: scale(1.5) rotate(180deg);
+    /* transform: skew(20deg); */
+    /* transform:translateY(200px)  */
+}
