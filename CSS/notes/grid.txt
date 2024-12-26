@@ -1,0 +1,25 @@
+Grid is used to display the items in two directional i.e.., row and columns. we define grid to parent container.
+In grid, it is important to know row lines and column lines
+parent properties: 
+   display:grid; -- used to arrange items in grid
+   grid-template-columns: width1 width2... -- used to define each column width
+     we can even use auto,%,repeat,fr
+   grid-template-rows: height1 height2... -- used to define each row height
+     we can even use auto,%,repeat,fr
+   justify-content: it is used move the item horizontally
+   align-items: it is used to move the items vertically
+   gap: it used to define gap between the items
+   we can use row-gap for gap between rows and column-gap for gap between the columns
+
+Child properties: 
+  grid-column-start: starting column line number
+  grid-column-end: ending column-line number
+  grid-column:grid-column-start/grid-column-end;
+  grid-row-start: starting row line number
+  grid-row-end: ending row-line number
+  grid-row:grid-row-start/grid-row-end;
+  order: defines the order of element, by default order is 1
+  justify-self: used to arrange single element horizontally
+  align-self: used to arrange single element vertically
+  grid-area: it is a shortcut property to combine rows and columns at a time
+  grid-area: row-start/column-start/row-end/column-end
