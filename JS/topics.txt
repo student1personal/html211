@@ -1,0 +1,23 @@
+JAVASCRIPT:
+-----------
+-- Basics:
+      introduction
+      Primitive data types(number,string,boolean,undefined,null)
+      JS engine(Hoisting,call stack,debug)
+      operators
+      functions
+      arrays
+      objects
+      control statements
+      loops
+-- DOM
+-- Async:
+      events
+      timers
+      API,AJAX
+      promises
+      async await
+      ES6
+-- OOPS
+-- BOM
+-- libraries
