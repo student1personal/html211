@@ -1,0 +1,41 @@
+Bootstrap is a component library of CSS used for UI purposes.Bootstrap can perform responsiveness by Mobile First Design
+A library is a prewritten code used for a specific purpose.
+
+To understand Bootstap well, we need to understand following topics
+  -- i. colors:
+     In Bootstrap , we have total 8 colors
+       -- primary  -- blue
+       -- secondary -- grey
+       -- danger -- red
+       -- success -- green
+       -- info -- skyblue
+       -- warning -- yellow
+       --dark/black -- black
+       -- light/white -- white
+  -- ii. layouts: bootstrap follows layout automatically as a grid of 12 colums per row
+  row class name is row
+  columns class names can be col or col-width
+  -- iii. breakpoints:
+  Bootstrap provides responsiveness through breakpoints. They designed with a goal of mobile first design.Different breakpoints are
+  <576       -- none
+  >=576px      -- sm
+  >=768px      -- md
+  >=992px      -- lg
+  >=1200px     -- xl
+  >=1400px     -- XXL
+  Bootstrap also do basic utilities like padding,margin,border,flex etc..,
+  property                  classname
+  padding                    p-0,p-1,p-2,p-3,p-4,p-5,pt(padding-top),pb(padding-bottom),
+                              ps(padding-left),pe(padding-end),px(left and right),
+                              py(top and bottom)
+  iv. components: components are ready-made building blocks provided by bootstrap. It contains variety of features such as Accordins, carousel, Modal,cards,buttons etc..,
+  v.Forms: Bootstrap also provides classes such as 'form-control','form-check' for different input elements
+
+
+
+
+
+
+
+  -- iv. components
+  -- v. forms
