@@ -1,1 +1,111 @@
+Function: functions are used to perform a specific task.we divide our code into smaller reusable blocks to make code more easy to read and debug. They are called functions
+ syntax : function function_name(parameters)
+   {
+     // function body/definition;
+   }
+   function_name()  //function call
+Eg: function add ()
+{
+    let a = 10, b = 20;
+    let c = a + b;
+    console.log(c);
+}
+  add()
+ 
+---> functions can even take parameters such that every time we can use dynamic inputs
+function add (a,b)
+{
+    let c = a + b;
+    console.log(c);
+}
+add(5, 3)
+add(10, 20);
 
+--> we can assign default parameters in function prototype
+ function add (a,b=25)
+{
+    let c = a + b;
+    console.log(c); //30
+}
+add(5)
+add(5,3)
+
+--> functions can even return the values
+function fun (x)
+{
+    return x.length;
+}
+let res = fun("prasad")
+console.log(res) //6
+
+--->functions are called "first class citizens" in javascript
+----> function expressions : functions can be expressed as a variable where an anonymous function names with variable is called function expression.
+let puppy = function (n)
+{
+    console.log(`woof,woof  ${n}`)
+}
+puppy("prasad")
+console.log(puppy)
+
+
+----> Arrow functions: Arrow functions are nothing but function expressions but with a modern syntax. if definition has only one statement , no need of braces or return keyword
+let sub3 = (a, b) => b - a;
+console.log(sub3(10, 20))
+
+----> callback functions: callback functions are the functions that are given as parameter to another function. It is widely used for inter-functional dependencies
+syntax: function function1(){
+
+}
+function function2(x){
+  x()
+}
+function2(function1)
+
+----> functions can be called itself immediately called IIFE(Immediate Invoke function expression)
+syntax: (function (){
+  //body
+})();
+These functions should be written at the top of code and it is used for security.
+
+----> JS functions also have a concept called "closure". closure means , In a nested function , Inner function remembers outer function values even after outer function execution ended.
+
+  Closures are used for 'memorization' techniques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
