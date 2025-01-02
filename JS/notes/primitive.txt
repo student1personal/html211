@@ -1,1 +1,74 @@
+1. number: Any numerical value is number data type.
+ default methods:
+ number.toFixed(n): it returns the number adjusted to 'n' digits after decimal
+ Eg: let n=3.415;
+ n.toFixed(2) ==>3.42
+ number.toPrecision(n): it returns the number adjusted to total 'n' digits 
+ number.toString()
+  Eg: let n=4.1256;
+  n.toPrecision(2)==>4.1;
+number.toString(n): it returns the number converted to base n
+Eg: let n=25;
+n.toString(2)  ==> 11001
+  
+Math Methods:
+Math methods are used to perform certain mathematical operations such as sqrt,cbrt,round etc..,
+   Math.max(a,b,c) -- returns the maximum value of a,b and c
+   Math.min(a,b,c) -- returns the minimum value of a,b and c
+   Math.ceil(a) -- returns the nearest large integer
+   Math.floor(a) -- returns the nearest small integer
+   Math.round(a) -- returns the rounded values to the nearest integer
+   Math.sqrt(a) -- returns the square root of a
+   Math.cbrt(a) -- returns the cube root of a
+   Math.pow(a,b) -- returns the value of a power b
+   Math.random() --returns random value from 0.0 to 1.0
 
+2. strings:
+strings are used for alphanumerical values. They might contain numbers,characters or special symbols
+strings can be representes in three ways in JS
+ i. single or double quotes:
+    There is no difference single or double quote reprentation of a string.
+    let str= 'raj'
+    let str1= "prasad"
+
+ ii. backticks:   
+    we can also represent string using backticks. These strings are used to continue the floq of a string without breaking it. it also provides dynamical values in the string itself
+    let cost = 25, quantity = 4;
+console.log(` The total of ${quantity}  apples of each worth ${cost} is ${cost * quantity} `)
+  This is also called Template literial
+
+  By default, string have sp many methods to perform certain tasks
+  String methods:
+  length -- returns total number of characters includes space
+  chartAt(i) -- returns character at specified   index
+  indexOf(ch) -- returns the index of first occurence of given character .
+  lastIndexOf(ch) -- returns the index of last occurence of given  character
+  toUpperCase() -- returns the string that converted as toUpperCase
+  Note: Strings are immutable in Javascript means any operation on string cannot change the original string
+  toLowerCase()  -- returns the string that converted as lowercase()
+  startsWith(string) -- returns true or false based on whether the string is starting with the given string or not
+  endsWith(string) -- returns true or false based on whether the string is ending with the given string or not
+  replace('oldstr','newstr') -- returns updated string where oldstr is changed to newstr only for the first occurence of oldstr
+  Eg: "javascript".replace('a','k')  ==> jkvascript
+  replaceAll('oldstr','newstr') -- returns updated string where oldstr is changed to newstr for all places
+  Eg: "javascript".replaceAll('a','k')  ==> jkvkscript
+   
+   split('delimiter'):returns an array of strings which got separated from the given string based on delimiter
+   eg:"my name is prasad".split(' ')==>['my','name','is','prasad']
+ 
+    slice(firstIndex,lastIndex): returns one subsection of string.if we mention only firstIndex,then it returns whole string starting it
+    eg:"Javascript".slice(2) ==>vascript
+    if we mention first and last both index, then it cuts the string until the lastIndex but it is excluded
+     eg:"Javascript".slice(2,5) ==>vas
+   
+    trim(): used to remove the space from both the end of string
+    eg:"  javascript  ".trim()==> javascript
+
+3. Boolean: Boolean is used to store true or false. true can be coverted as 1.false can converted as 0.
+  eg:let x=true;let y=10>5;
+
+4. undefined: undefined represents accidental absence of value. it expects the value in future
+eg: let x = undefined;
+
+5. null: null represents intentional absence of value. it ends the value and will not expects
+eg:let x=null; 
