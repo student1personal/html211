@@ -1,1 +1,44 @@
+control statements are used to control the flow or execution of the code.
+   i. if:
+   //simple if
+   it executes a set of statements once condition is true
+   if(condition){
+    //code
+   }
+   //if..else
+   it executes a set of statements when condition is true and another set of statements when condition is false
+   if(condition){
+    //code
+   }
+   else{
+    //code
+   }
+   // if--else--if
+   it executes multiple conditions or options to check. 
+   if(condition){
+    //code
+   }
+   else if(condition){
+    //code
+   }
+   else{
+    
+   }
 
+
+Imagine a situation to print name of the month or name of the week based on its number. Instead of using multiple if else if, we can use switch case
+
+switch: switch works one of the option between multiple options easily. it uses cases with respective match and includes the default also
+syntax: switch(expression/value){
+   case value1: //code;
+               break;
+   case value2: //code;
+               break;
+   case value3: //code;
+               break;
+   case value4: //code;
+               break;
+   default:code;
+}
+
+break is a keyword to stop the execution of current block further
