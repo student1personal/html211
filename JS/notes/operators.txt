@@ -1,1 +1,56 @@
-
+operators: operators are used to perform an operation between operands.
+Eg: a+b is an addition operation with '+' as a operator and a,b are operands
+There are several operators such as
+   i. arithematic operators: 
+         arithematic operators are used to perform basic arithematic operators 
+         +  -- used for addition
+         -   -- used for subtraction
+         *  -- used for multiplication
+         /   -- used for division
+         % -- used for remainder
+         ** -- used for power
+   ii. relational operators:
+           relational operators are used to perform comparisons and return boolean values
+          > -- greater than
+          < -- less than
+          >= -- greater than or equals to
+          <= -- less than or equals to
+          ==  --  double equals is used to compare two values
+          === -- triple equals is used to compare two values and datatypes
+          != -- will be true when both are not equal to each other
+          !== will be true when both are not equal to each other value or datatype
+  eg: '5'==5 ---> T , '5'===5 --->false
+         0==false---> true , 0===false -->F
+         '1' == true --->T  , '1'===true  --->F
+   iii. logical operators:
+           logical operators are used to perform logical conditions such as
+         and -- &&  -- used to check multiple conditions based on AND. will be true when the both values are true 
+         Eg: (5>2) && (5>4)
+         or  -- || -- used to check multiple conditions based on OR. will be true when the any ot the  values are true 
+         Eg: (5>2) || (5>6) 
+         not -- ! -- used to check whether condition is false or not.
+        Eg: !(10>5)  -- F
+    iv. assignment operators:
+           Assignment operators are used to assign certain values.
+        +=  ---->eg: a+=2 => a=a+2
+        -=  ---->eg: a-=2 => a=a-2
+        *=  ---->eg: a*=2 => a=a*2
+        /=  ---->eg: a/=2 => a=a/2
+        %=  ---->eg: a%=2 => a=a%2
+        **= ---->eg: a**=2 => a=a**2
+     v.Increment and Decrement operators:
+           Increment and Decrement operators are used to increase or decrease the value by 1.
+           Increment(++):Increment can be done in two ways
+            1.pre-increment: pre increment first increases the value and then assigns the value
+            eg:++a;
+            2.post-increment:post-Increment first assigns the value and then increment
+            eg:a++;
+            Same things,applies to decrement also
+    vi. Ternary operators:
+          Ternary operators are used to choose between two options based on a condition
+          eg: let c = (a>5) ? 10 :20;
+          if the condition a>5 is true then c=10;
+          else c=20;
+    vii. unary + or unary -: These are used to convert any datatype to numbers. unary + is the recommanded one
+    viii. nullish coelsion operator: it is used when the decision needs to be done with empty or unknown values.
+     
