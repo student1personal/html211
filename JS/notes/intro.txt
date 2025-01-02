@@ -1,1 +1,54 @@
+Javascript is client side programming language used for the functionality of website.
+Javascript is JIT(Just-in-Time) compiled programming languages that runs on JS Engines of Every Browser.
+popular browsers like chrome has an engine called v8, mozilla has an engine called spidermonkey, edge has an engine called chakra.
+Javascript is synchronous(runs line by line without waiting), single threaded(one task at a time) language.
+Javascript is developed by Brenden Eich in 1995. while working in netscape, he started it. Initially it is named as "livescript", but due to popularity of java, it is renamed as "Javascript".
+How to include Javascript into HTML?
+  --Javascript can be include to HTML in two ways
+     i. internal JS
+     ii. External JS
+1. internal JS: we can include Javascript in HTML directly within script tag
+ eg: <script>
+       console.log("bye World") 
+     </script>
+2. external JS: we can include Javascript to html by an external file path in src.
+<script src="./script.js"></script>
+** Javascript is case sensitive
+** It is recommanded to include JS at the end of body
 
+Every Browser supports certain tools called developer tools
+Most used developer tools includes elements,console,sources,network,memory,performance,application,lighthouse.
+
+console is used for debugging(The Process to find bugs by checking the code line by line). The Bug represented unexpected results or not working the way it supposed to.
+
+Javascript can also perform server side but basic JS is designed for client side.
+
+Comments in Javscript:
+Comments are used for readability purposes and they make the code more clear and understable for the developers. comments are ignored by the compiler
+
+There are two ways of commenting code in JS
+i. single line comments: These are used in one line and is followed by double slash
+eg: //single line comment
+ii. multi line comments: These are used for multiple line and are always between /*   and  */
+
+
+Variables in JS:Variables are the fundamental concept in any programming language. variables are used to store the values such that those values can be modifies/manipulated easily
+These variables also called identifiers.There are three ways we can declare variable in JS
+
+i. var: var is traditional way of declaring variable in JS.
+var is a functional scoped variable and var values can be redeclared and reassigned.
+eg: var x=25;
+ii. let: let is introduced in ES6,2015. it is a block scoped variable and let values cannot be redeclared but can be reassigned
+iii. const:const is introduced in ES6,2015. it is a block scoped variable and const values cannot be redeclared and cannot be reassigned
+
+** for modern programming avoid using var and mostly use let and const
+** is semicolon mandatory in js? JS have auto semi colon insertion 
+in JS engine. still using ; at end of every statement is good practice.
+
+
+Basic Default methods:
+alert: alert method is used to alert the user with a message.
+alert(message);
+prompt: prompt is used to input a value from the user but prompt takes the value always as string(alphanumerical values)
+confirm: confirm is used to confirm a certain condition
+confirm(question)
