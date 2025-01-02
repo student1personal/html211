@@ -1,1 +1,6 @@
-
+Loops: loops will repeat again and again. each repitition is called iteration
+We have primarily two sets of loops exist.
+  i. entry control loops : eg:while,for etc..,
+  ii. exit control loops : eg: do while 
+i. Entry control loops: these loops checks the conditionat the starting/entry.
+A loop contains three phases (initialization, condition, updation)
