@@ -1,2 +1,18 @@
 1. what is the difference between var,let and const?
 2. is console part of JS?
+3. what are data types in JS?
+4. probelms on math methods
+5. probelms on string functions
+6. difference between undefined and null
+7. what are arrays? how to iterate it?
+8. map, filter, reduce, splice, find, some, every
+9. what are objects? how to access value?
+10. what is callstack? hoisting? execution content?
+11. what is use of break in switch?
+12. difference between for, for..in,for..of,forEach?
+13.what is callback?
+14. what is closure?
+15. what is the difference between function, function expression and arrow function?
+16. how to declare default parameters
+17. DOM selection, dom manipulation, dom creation
+18.  
