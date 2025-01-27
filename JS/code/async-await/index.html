@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            max-width: 1280px;
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #main{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        #main>div{
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 2px 3px 5px blueviolet;
+        }
+        #main>div>img{
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="input">
+        <input type="text" id="inp" placeholder="Enter a movie">
+        <button id="btn">search</button>
+    </div>
+    <div id="main">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
