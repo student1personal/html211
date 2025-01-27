@@ -1,0 +1,4 @@
+https://official-joke-api.appspot.com/random_joke
+https://dummyjson.com/quotes/random
+https://fakestoreapi.com/products
+https://pokeapi.co/api/v2/pokemon/pikachu
