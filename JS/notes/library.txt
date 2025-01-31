@@ -1,0 +1,21 @@
+library is a code prewritten for specific purpose
+js provides so many libraries which brings lot of functionalities
+
+  i. take cdn link of library
+  ii. attach it to the code
+  iii. see the documentation and apply the code
+
+  Most popular libraries are:
+   i. jquery(dom and ajax)
+   ii. react(UI)
+   iii. anime js(animations)
+   iv. three js(3D)
+   v. GSAP(animations)
+   vi. swiper js(sliders)
+   vii. chart js(charts)
+   viii. AOS(animations on scroll)
+   ix. typed js(typing effect)
+
+   etc..,
+
+ i.jquery: 
