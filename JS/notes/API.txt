@@ -1,0 +1,41 @@
+API(Application Programming Interface) :
+    It is the bridge that connects client with server. There are differnt types of API's. Most popular API for web is REST API.
+REST API: They transfer the data in JSON format
+Eg: [
+    {
+        "name":"raj",
+        "age":50
+    },
+    {
+        "name":"sita",
+        "age":55
+    }
+]
+Every API data will be transferred through an end point.
+eg: https://fakestoreapi.com/products
+
+we can access API data using fetch
+In olden days we used to achieve it by XHR(xmlHttpRequest) but broweser developed default web api to connect the endpoint
+
+fetch('https://api.example.com/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log('Error:', error));
+
+
+
+API can have so many requests such as
+  GET: used to get all the data from an endpoint
+  POST: used to give the data to endpoint
+  DELETE: used to delete particular data using endpoint
+  PUT: used to update whole data using endpoint
+  PATCH: used to update particular data using endpoint
+
+  fetch(url,{
+    method:"POST/PUT/DELETE/PATCH"
+    data: data
+  })
+
+
+
+Promises usually use then and catch but understanding then and catch in complex chaining will be difficult. There is a modern approach to do promises called async-await
