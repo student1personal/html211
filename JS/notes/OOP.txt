@@ -1,0 +1,10 @@
+Object oriented programming:
+JS supports both object oriented and functional programming.
+functional programming:we will write code based on functions
+object oriented programming focuses on objects and how objects interaact.
+objects are the physical entity
+collection of objects is called class
+eg: banana - object
+apple- object
+orange -object
+fruit - class
