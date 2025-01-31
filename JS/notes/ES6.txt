@@ -1,0 +1,14 @@
+Javascript or any scripting languages maintained by Ecmascript
+Now current version is ES15. but the popular version which brings lot of changes to js is ES6 released in 2015.
+ES6 features
+  i. template literals: using this , we can write dynamic strings. it is embraced by brackticks and dynamic values are within ${ } 
+  ii. arrow functions: functions can also written as function expressions which are nameless and can be modernised as arrow functions.
+  iii. default parameters: we can assign a function parameters default value which will be used when number of parameters are not passed.
+  iv. rest(...) and spread(...) operator: rest operator is used to combine multiple parameters and spread operator is used to solit arrays
+  v. destructuring:
+  we can destructure an array or object such that its values will be used individually
+  vi. modules: To connect js files, we used to have module systems.olden days have common js,require js etc.., but ES6 brought ES6 module system which uses "export" and "import" keywords to transfer data between files
+
+ you can export normally or by default.
+
+ 
