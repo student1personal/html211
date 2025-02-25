@@ -1,0 +1,12 @@
+Headings are used to implement important words or main fetaure of certain context.
+HTML provides 6 headings from h1 to h6
+the main differences between headings are size and important
+ <h1>Hello headings</h1>
+     <h2>Hello headings</h2>
+     <h3>Hello headings</h3>
+     <h4>Hello headings</h4>
+     <h5>Hello headings</h5>
+     <h6>Hello headings</h6>
+
+paragraph: to write/display paragraph in html , we use p tag
+lorem is an emmet to generate dummy paragraph
