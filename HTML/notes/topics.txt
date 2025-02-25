@@ -1,0 +1,19 @@
+Basic Fundamentals
+UI/UX - figma
+HTML
+  -- introduction
+  -- Headings,p
+  -- anchor,img
+  -- formatting tags
+  -- lists
+  -- tables
+  -- semantic,block vs inline
+  -- forms(inputs,validation)
+  -- media
+  -- html5
+  Projects
+  -- Profile
+  -- WWW
+  -- resume
+  -- timetable
+  -- form
