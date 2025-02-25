@@ -1,0 +1,31 @@
+Media: HTML can also include different media into web page such as video, audio etc..,
+  Video: video can be included in HTML by video element with 
+  'source' tag containing the source of video
+   <video>
+     <source src="path">
+   </video>
+   you can also include height, width as video attributes
+   Audio: audio can be includes in HTML by audio element with 
+   'source' tag containing the source of audio
+   <audio>
+       <source src="path">
+   </audio>
+Note: we have to add attribute 'controls' to make video or audio work
+Iframe: Iframe is used to include any external resources such as pdfs,docs,images,other party videos,youtube, external website etc..,
+<Iframe frameborder="0" src="path">
+Icons: we can include icons into HTML through libraries such as 'fontAwesome','materialIcons' etc..,
+  ---> Include/link cdn link of fontAwesome in html head
+  ---> goto font awesome . select any icon.
+  ---> copy its html code and paste in HTML
+figure: figure element is used to include images with
+ caption
+<figure>
+   <img src="path" alt="">
+   <figcaption>title</figcaption>
+</figure>
+picture: picture is used to get responsive images based on devices
+<picture>
+   <source media=() srcset="">
+   <source media=() srcset="">
+   <img src="path" alt="">
+</picture>
