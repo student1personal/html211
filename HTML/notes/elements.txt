@@ -1,0 +1,21 @@
+Tag vs elements:
+for eg:
+h1 element -  <h1>content</h1>
+anchor element - <a>content</a>
+elements are nothing but content with tags. tags can be open or close
+There are two types of elements.
+ i.inline : inline elements allows next elements to beside them
+ eg: a,img,formatting tags
+ ii.block : block elements doesn't allw any elements to beside them. they always comes in new line
+eg: headings, p, lists,table,semantic elements
+
+General block element -- div
+General Inline element -- span
+/* make an image and anchor tag  and make them come in different lines using block/inline general elements */
+<img src="" alt="" />
+<div><a href="">click me</a></div>
+
+semantic elements: 
+There are some elements which are used to make search engine understands our code easily. they are called semantic elements
+eg: header,main,footer,nav,aside,section,article,figure
+but they won't create any impact in UI.
