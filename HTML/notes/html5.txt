@@ -1,0 +1,6 @@
+HTML5 is the latest version of HTML which brings lot of features such as video,audio,picture,semantic elements, etc..,
+some of the advanced features are
+  --> svg
+  --> canvas
+  --> drag n drap
+  -->data attributes
