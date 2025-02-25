@@ -1,0 +1,16 @@
+Tables are used to respresent the data in rows and columns.
+table use 'table' tag
+you can have attributes for table such as border, cellspacing and cellpadding
+Every table row will have 'tr' tag
+columns are represented by th or td tag
+th- table head, by default it is bold and centered
+td- table data , normal data
+
+To combine rows in table, we can use rowspan
+To combine columns, we can use colspan
+
+Title of table can be given using caption
+
+
+
+//task1 - create table of skills you have with ranking
