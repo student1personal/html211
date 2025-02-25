@@ -1,0 +1,57 @@
+Forms: Form is used to collect user's data/ information from the data
+Eg: login, registration, address,forgot password, job post, application,attendance,feedback,contact, survey,ticket booking
+
+forms uses 'form' element to include all forms inputs
+input boxes/fields are created using input tag. input tag is a self closing tag
+Every input tag will have some properties:
+
+i.type: It is used to define different types of inputs
+Eg:"text","number" etc.,
+ii. placeholder: it is used to keep some dummy text on input until user enters actual value. it makes user understands what to enter easily
+iii. id: To uniquely identify the input, we use id. we can also use label tag for labelling and connects label's for with inputs id so that label can activate input
+eg: <label for="inp1">name:
+</label>
+<input type="text" id="inp1">
+iv. name: name is used to store the value with certain name while sending it to another file(form submission)
+v. value: Every value user enters in input is stored as value. we can explicitly enter our own prefilled value
+
+
+
+different inputs:
+text: text input is used to enter textual information
+email: email input is used to collect emails(it won't accept without @)
+password: password input is used to enter passwords (by default text is hidden)
+number: number is used to enter numerical values
+date: used to select the date in a calender
+datetime-local : used to select date and time
+time: used to select time
+week: used to select the week
+month: used to select the month
+colour: used to select the colour
+url: used to enter the url address
+button: used to generate a button
+submit: used to generate button that submits the form
+reset: used to generate button that reset the form inputs
+radio: used to generate radio buttons( we have to give labels to identify the selection for user and we have to keep same name attribute for all radio inputs) 
+checkbox: similar to radio buttons but checkboxes used for multi selection unlike radio which is used for single selection
+
+
+To get dropdown, we can use 'select' element
+select element uses option tag
+every option will have value
+ <select>
+   <option value=""></option>
+ </select>
+ To accept multiple selection , we can use multiple attribute
+ We can even group otions using optgroup with label
+
+ form validations:
+ required
+ readonly
+ disabled
+ max
+ min
+ minlength
+ maxlength
+ size
+ pattern : uses regular expressions
